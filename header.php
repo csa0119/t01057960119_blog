@@ -13,7 +13,7 @@
 			$("li").each(function(){						
 				alert($(this).attr("class"));
 				if($(this).attr("class")!="active")
-				{
+				{ 
 					$(this).addClass('active');
 				}
 			});
